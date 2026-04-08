@@ -1,0 +1,629 @@
+<!--Task 1 – Image Gallery Website -->
+<!--Create an image gallery web page.-->
+<!--Requirements:-->
+<!--• Display images in a grid layout.-->
+<!--• Use AI to:-->
+<!--o Optimize layout using CSS Grid.-->
+<!--o Add hover zoom or overlay effects.-->
+<!--o Ensure mobile responsiveness.-->
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Optimized Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .gallery-item:hover .overlay {
+      opacity: 1;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5em;
+      }
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>My Image Gallery</h1>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1015/600/400" alt="Nature 1">
+      <div class="overlay">Beautiful Landscape</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1025/600/400" alt="Nature 2">
+      <div class="overlay">Wildlife</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1035/600/400" alt="Nature 3">
+      <div class="overlay">Mountain View</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1045/600/400" alt="Nature 4">
+      <div class="overlay">Ocean Waves</div>
+    </div>
+  </div>
+</body>
+</html>-->
+
+
+<!--Task 2 – Profile Card Generator
+Create a profile card web page.
+Requirements:
+• Display user image, name, role, and social media links.
+• Use AI to:
+o Suggest modern UI colors and fonts.
+o Design the card using Flexbox.
+o Add hover animation and shadow effects-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card Generator</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 4px solid #74ebd5;
+    }
+
+    .card h2 {
+      margin: 10px 0 5px;
+      font-size: 1.5em;
+      color: #333;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 1em;
+      color: #666;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #fff;
+      background: #74ebd5;
+      padding: 10px;
+      border-radius: 50%;
+      transition: background 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: #ACB6E5;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    
+    <img src="https://picsum.photos/200" alt="User Image">
+    
+    <h2>John Doe</h2>
+    
+    
+    <p>Web Developer</p>
+    
+    
+    <div class="social-links">
+      <a href="https://twitter.com" target="_blank">T</a>
+      <a href="https://linkedin.com" target="_blank">in</a>
+      <a href="https://github.com" target="_blank">GH</a>
+    </div>
+  </div>
+</body>
+</html> 
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Task 3 -Develop a dynamic shopping cart system.
+Requirements:
+• Add, remove, and update product quantities.
+• Display real-time total price.
+• Use AI to:
+o Manage cart state using JavaScript objects.
+o Persist cart data in localStorage-->
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Shopping Cart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .products, .cart {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .product, .cart-item {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 200px;
+    }
+
+    .product button, .cart-item button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      background: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .product button:hover, .cart-item button:hover {
+      background: #0056b3;
+    }
+
+    .cart-total {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Shopping Cart System</h1>
+
+
+  <div class="products">
+    <div class="product">
+      <h3>Product A</h3>
+      <p>Price: $10</p>
+      <button onclick="addToCart('Product A', 10)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Product B</h3>
+      <p>Price: $15</p>
+      <button onclick="addToCart('Product B', 15)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <h3>Product C</h3>
+      <p>Price: $20</p>
+      <button onclick="addToCart('Product C', 20)">Add to Cart</button>
+    </div>
+  </div>
+
+  
+  <h2>Your Cart</h2>
+  <div class="cart" id="cart"></div>
+  <div class="cart-total" id="cart-total">Total: $0</div>
+
+  <script>
+    // Load cart from localStorage or initialize empty
+    let cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+    // Add product to cart
+    function addToCart(name, price) {
+      if (cart[name]) {
+        cart[name].quantity++;
+      } else {
+        cart[name] = { price: price, quantity: 1 };
+      }
+      saveCart();
+      renderCart();
+    }
+
+    // Remove product from cart
+    function removeFromCart(name) {
+      delete cart[name];
+      saveCart();
+      renderCart();
+    }
+
+    // Update product quantity
+    function updateQuantity(name, quantity) {
+      if (quantity <= 0) {
+        removeFromCart(name);
+      } else {
+        cart[name].quantity = quantity;
+      }
+      saveCart();
+      renderCart();
+    }
+
+    // Save cart to localStorage
+    function saveCart() {
+      localStorage.setItem('cart', JSON.stringify(cart));
+    }
+
+    // Render cart items
+    function renderCart() {
+      const cartContainer = document.getElementById('cart');
+      cartContainer.innerHTML = '';
+      let total = 0;
+
+      for (let item in cart) {
+        const product = cart[item];
+        total += product.price * product.quantity;
+
+        const div = document.createElement('div');
+        div.className = 'cart-item';
+        div.innerHTML = `
+          <h4>${item}</h4>
+          <p>Price: $${product.price}</p>
+          <p>Quantity: 
+            <input type="number" value="${product.quantity}" min="1" 
+              onchange="updateQuantity('${item}', this.value)">
+          </p>
+          <p>Subtotal: $${product.price * product.quantity}</p>
+          <button onclick="removeFromCart('${item}')">Remove</button>
+        `;
+        cartContainer.appendChild(div);
+      }
+
+      document.getElementById('cart-total').innerText = `Total: $${total}`;
+    }
+
+    // Initial render
+    renderCart();
+  </script>
+</body>
+</html>
+-->
+
+<!--Task 4 – Role-Based Access Control Application
+Create a role-based web application.
+Requirements:
+• Admin, Editor, User roles.
+• Conditional UI rendering.
+• Use AI to:
+o Design access control logic.
+o Maintain secure state transitions.
+o Create scalable UI components.-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Role-Based Access Control</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .navbar button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      background: #007bff;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .navbar button:hover {
+      background: #0056b3;
+    }
+
+    .section {
+      display: none;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .visible {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Role-Based Access Control App</h1>
+
+  
+  <div class="navbar">
+    <button onclick="setRole('Admin')">Login as Admin</button>
+    <button onclick="setRole('Editor')">Login as Editor</button>
+    <button onclick="setRole('User')">Login as User</button>
+  </div>
+
+  
+  <div id="admin-section" class="section">
+    <h2>Admin Dashboard</h2>
+    <p>Admins can manage users, settings, and system data.</p>
+  </div>
+
+  <div id="editor-section" class="section">
+    <h2>Editor Panel</h2>
+    <p>Editors can create and update content.</p>
+  </div>
+
+  <div id="user-section" class="section">
+    <h2>User Area</h2>
+    <p>Users can view and interact with content.</p>
+  </div>
+
+  <script>
+    // Secure state management
+    let currentRole = localStorage.getItem('role') || null;
+
+    function setRole(role) {
+      currentRole = role;
+      localStorage.setItem('role', role);
+      renderUI();
+    }
+
+    function renderUI() {
+      // Hide all sections
+      document.getElementById('admin-section').classList.remove('visible');
+      document.getElementById('editor-section').classList.remove('visible');
+      document.getElementById('user-section').classList.remove('visible');
+
+      // Conditional rendering based on role
+      if (currentRole === 'Admin') {
+        document.getElementById('admin-section').classList.add('visible');
+      } else if (currentRole === 'Editor') {
+        document.getElementById('editor-section').classList.add('visible');
+      } else if (currentRole === 'User') {
+        document.getElementById('user-section').classList.add('visible');
+      }
+    }
+
+    // Initial render
+    renderUI();
+  </script>
+</body>
+</html>
+-->
+
+Task 5 – Multi-Language Website
+<!--Design a multilingual website.
+Requirements:Switch languages dynamically.,Persist language preference.
+• Use AI to:Structure translation files,Handle RTL/LTR layouts,Improve accessibility-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multilingual Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .language-selector {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .language-selector button {
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      background: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .language-selector button:hover {
+      background: #0056b3;
+    }
+
+    .content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>  
+
+
+
+
+
+
+
+
+Task 6 – Online Examination System
+<!--Create an online exam interface.
+Requirements:
+• Timer, questions, and submission.
+• Prevent multiple submissions.
+• Use AI to:
+o Manage exam state.
+o Improve exam UX.
+o Ensure accessibility.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Exam</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    #timer { font-size: 20px; color: red; }
+    .question { margin-bottom: 15px; }
+    button { padding: 10px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Online Examination</h1>
+  <div id="timer">Time Left: 30:00</div>
+
+  <form id="examForm">
+    <div class="question">
+      <p>Q1: What is 2 + 2?</p>
+      <input type="radio" name="q1" value="3"> 3<br>
+      <input type="radio" name="q1" value="4"> 4<br>
+      <input type="radio" name="q1" value="5"> 5<br>
+    </div>
+
+    <button type="submit">Submit Exam</button>
+  </form>
+
+  <script>
+    // Timer
+    let time = 30 * 60; // 30 minutes
+    const timerElement = document.getElementById("timer");
+    const interval = setInterval(() => {
+      let minutes = Math.floor(time / 60);
+      let seconds = time % 60;
+      timerElement.textContent = `Time Left: ${minutes}:${seconds}`;
+      time--;
+      if (time < 0) {
+        clearInterval(interval);
+        document.getElementById("examForm").submit();
+      }
+    }, 1000);
+
+    // Prevent multiple submissions
+    document.getElementById("examForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      alert("Exam submitted successfully!");
+      document.querySelector("button").disabled = true;
+    });
+  </script>
+</body>
+</html>
